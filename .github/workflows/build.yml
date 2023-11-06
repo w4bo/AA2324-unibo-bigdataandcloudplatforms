@@ -22,7 +22,7 @@ jobs:
           done
           mkdir _site
           mv *.html _site
-          ls -las
+          cp datasets/* _site
       - name: Build local Jupyter
         run: docker compose build
       - name: Deploy
