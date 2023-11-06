@@ -23,10 +23,10 @@ jobs:
           mkdir _site
           mv *.html _site
           cp datasets/* _site
-      - name: Build local Jupyter
-        run: docker compose build
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@v4.4.3
         with:
           branch: gh-pages
           folder: notebooks/_site
+      - name: Build local Jupyter
+        run: docker compose build
