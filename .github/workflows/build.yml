@@ -22,6 +22,7 @@ jobs:
           done
           mkdir _site
           mv *.html _site
+          mv *.ipynb _site
           cp datasets/* _site
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@v4.4.3
