@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8' ?>
 
-<!-- build 20223.22.1005.1835                               -->
-<workbook original-version='18.1' source-build='2022.3.0 (20223.22.1005.1835)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+<!-- build 20232.23.0909.1159                               -->
+<workbook original-version='18.1' source-build='2023.2.2 (20232.23.0909.1159)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
   <document-format-change-manifest>
     <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
     <IntuitiveSorting />
@@ -27,7 +27,7 @@
       <connection class='federated'>
         <named-connections>
           <named-connection caption='sensor-dwh.cd97tkze3ics.us-east-1.rds.amazonaws.com' name='postgres.1yezur90r0guv20zyire802h62gh'>
-            <connection authentication='username-password' class='postgres' dbname='postgres' one-time-sql='' port='5432' server='sensor-dwh.cd97tkze3ics.us-east-1.rds.amazonaws.com' username='postgres' />
+            <connection authentication='username-password' class='postgres' dbname='postgres' one-time-sql='' port='5432' server='sensor-dwh1.crxqb7bplkfq.us-east-1.rds.amazonaws.com' username='postgres' />
           </named-connection>
         </named-connections>
         <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='postgres.1yezur90r0guv20zyire802h62gh' name='date' table='[public].[date]' type='table'>
